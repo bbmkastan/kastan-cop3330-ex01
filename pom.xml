@@ -8,10 +8,6 @@
   <artifactId>Examples</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Examples</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>16</maven.compiler.source>
@@ -51,7 +47,7 @@
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
-                <mainClass>oop.examples.ch01.ex01.App</mainClass>
+                <mainClass>base.App</mainClass>
               </manifest>
             </archive>
           </configuration>
